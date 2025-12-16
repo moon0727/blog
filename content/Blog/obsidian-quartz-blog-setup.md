@@ -27,7 +27,7 @@ Obsidian에서 작성한 노트를 Quartz로 정적 사이트로 변환하고, G
 1. [Quartz GitHub 저장소](https://github.com/jackyzha0/quartz)에 접속
 2. `Use this template` 버튼 클릭 → `Create a new repository` 선택
 
-![GitHub Template으로 Repository 생성](images/clone-quartz.png)
+![GitHub Template으로 Repository 생성](./images/clone-quartz.png)
 
 3. 새 repository 이름 입력 후 생성
 4. 생성된 repository를 로컬로 clone
@@ -42,11 +42,11 @@ npm install
 
 1. Obsidian 실행 후 "보관함 폴더 열기" 선택
 
-![Obsidian 보관함 폴더 열기](images/obsidian-vault.png)
+![Obsidian 보관함 폴더 열기](./images/obsidian-vault.png)
 
 2. Quartz 프로젝트의 `content` 폴더 선택
 
-![Content 폴더 선택](images/obsidian-content.png)
+![Content 폴더 선택](./images/obsidian-content.png)
 
 3. `content` 폴더 안에 `index.md` 노트 생성 후 frontmatter 작성
 
@@ -71,22 +71,22 @@ git push
 
 1. Cloudflare 대시보드에서 **Workers & Pages** → **Create application** → **Pages** 선택
 
-![Cloudflare Pages 시작](images/cloudflare-pages.png)
+![Cloudflare Pages 시작](./images/cloudflare-pages.png)
 
 2. **Connect to Git**에서 GitHub repository 연결
 
-![GitHub Repository 연결](images/cloudflare-github.png)
+![GitHub Repository 연결](./images/cloudflare-github.png)
 
 3. 빌드 설정 입력
 
-![빌드 설정](images/cloudflare-build.png)
+![빌드 설정](./images/cloudflare-build.png)
 
 - **빌드 명령**: `npx quartz build`
 - **빌드 출력 디렉터리**: `public`
 
 4. **저장 및 배포** 클릭 후 배포 완료!
 
-![배포 완료](images/deployment-success.png)
+![배포 완료](./images/deployment-success.png)
 
 
 ## 글 작성 워크플로우
